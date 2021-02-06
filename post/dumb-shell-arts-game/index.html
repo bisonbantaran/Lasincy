@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Dumb Shell Arts Game / I am writing a shell script which works on my local /bin/sh fine (dash on ubuntu 13.04), but i unltimately need to run it on a dumb box where i&amp;#039;m getting an error because of an operation on variables how can i do maths on this dumb shell? - Lesincy</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="10,579 likes · 48 talking about this.">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Lesincy" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Lesincy</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+	
+    <script data-cfasync="false">
+    var _avp = _avp || [];
+    (function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript'; s.async = true; s.src = window.location.protocol + '//adserver.adreactor.com/js/libcode3.js';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+    })();
+    </script>
+    
+	
+	    
+    <script>
+    if (!document.cookie || document.cookie.indexOf('AVPWCAP=') == -1) {
+    _avp.push({ alias: '/', type: 'window', zid: 23, pid: 8697 });
+    }
+    </script>
+    
+	
+<script>(function(a,b,c){Object.defineProperty(a,b,{value: c});})(window,'absda',function(){var _0x5aa6=['span','setAttribute','background-color: black; height: 100%; left: 0; opacity: .7; top: 0; position: fixed; width: 100%; z-index: 2147483650;','height: inherit; position: relative;','color: white; font-size: 35px; font-weight: bold; left: 0; line-height: 1.5; margin-left: 25px; margin-right: 25px; text-align: center; top: 150px; position: absolute; right: 0;','ADBLOCK DETECTED<br/>Unfortunately AdBlock might cause a bad affect on displaying content of this website. Please, deactivate it.','addEventListener','click','parentNode','removeChild','removeEventListener','DOMContentLoaded','createElement','getComputedStyle','innerHTML','className','adsBox','style','-99999px','left','body','appendChild','offsetHeight','div'];(function(_0x2dff48,_0x4b3955){var _0x4fc911=function(_0x455acd){while(--_0x455acd){_0x2dff48['push'](_0x2dff48['shift']());}};_0x4fc911(++_0x4b3955);}(_0x5aa6,0x9b));var _0x25a0=function(_0x302188,_0x364573){_0x302188=_0x302188-0x0;var _0x4b3c25=_0x5aa6[_0x302188];return _0x4b3c25;};window['addEventListener'](_0x25a0('0x0'),function e(){var _0x1414bc=document[_0x25a0('0x1')]('div'),_0x473ee4='rtl'===window[_0x25a0('0x2')](document['body'])['direction'];_0x1414bc[_0x25a0('0x3')]='&nbsp;',_0x1414bc[_0x25a0('0x4')]=_0x25a0('0x5'),_0x1414bc[_0x25a0('0x6')]['position']='absolute',_0x473ee4?_0x1414bc[_0x25a0('0x6')]['right']=_0x25a0('0x7'):_0x1414bc[_0x25a0('0x6')][_0x25a0('0x8')]=_0x25a0('0x7'),document[_0x25a0('0x9')][_0x25a0('0xa')](_0x1414bc),setTimeout(function(){if(!_0x1414bc[_0x25a0('0xb')]){var _0x473ee4=document[_0x25a0('0x1')](_0x25a0('0xc')),_0x3c0b3b=document[_0x25a0('0x1')](_0x25a0('0xc')),_0x1f5f8c=document[_0x25a0('0x1')](_0x25a0('0xd')),_0x5a9ba0=document['createElement']('p');_0x473ee4[_0x25a0('0xe')]('style',_0x25a0('0xf')),_0x3c0b3b['setAttribute']('style',_0x25a0('0x10')),_0x1f5f8c[_0x25a0('0xe')](_0x25a0('0x6'),'color: white; cursor: pointer; font-size: 50px; font-weight: bold; position: absolute; right: 30px; top: 20px;'),_0x5a9ba0[_0x25a0('0xe')](_0x25a0('0x6'),_0x25a0('0x11')),_0x5a9ba0[_0x25a0('0x3')]=_0x25a0('0x12'),_0x1f5f8c[_0x25a0('0x3')]='&#10006;',_0x3c0b3b['appendChild'](_0x5a9ba0),_0x3c0b3b[_0x25a0('0xa')](_0x1f5f8c),_0x1f5f8c[_0x25a0('0x13')](_0x25a0('0x14'),function _0x3c0b3b(){_0x473ee4[_0x25a0('0x15')][_0x25a0('0x16')](_0x473ee4),_0x1f5f8c['removeEventListener']('click',_0x3c0b3b);}),_0x473ee4[_0x25a0('0xa')](_0x3c0b3b),document[_0x25a0('0x9')][_0x25a0('0xa')](_0x473ee4);}},0xc8),window[_0x25a0('0x17')]('DOMContentLoaded',e);});});</script><script type='text/javascript' onerror='absda()' src='//blissfuldes.com/41/6c/2e/416c2e838ffd0ebdc5c06cfa83cc5244.js'></script>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Dumb Shell Arts Game / I am writing a shell script which works on my local /bin/sh fine (dash on ubuntu 13.04), but i unltimately need to run it on a dumb box where i&amp;#039;m getting an error because of an operation on variables how can i do maths on this dumb shell?</h1>
+			
+		</header><div class="content post__content clearfix">
+			
+<section>
+    <aside>
+        <a href="https://image.scoopwhoop.com/w360/s3.scoopwhoop.com/anj/weird-bollywood-movie-names-1/348327810.jpg.webp"><img alt="21 Movies For Dumb Charades 21 Bollywood Movies For Damsharas Contains more than 16k indian movies on 4 different indian languages. 21 movies for dumb charades 21" src="https://image.scoopwhoop.com/w360/s3.scoopwhoop.com/anj/weird-bollywood-movie-names-1/348327810.jpg.webp" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwyoOosTOZdTOIVWwALouhLJnNcaMSORkipQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>360x522 - You can play the game in three different mode as capture the spatula. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 360x522</li> 
+    <mark>21 Movies For Dumb Charades 21 Bollywood Movies For Damsharas </mark> 10,579 likes · 48 talking about this.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://i.ytimg.com/vi/hoLEV8IcxDg/hqdefault.jpg"><img alt="Dumb Shell Arts Narsimha Youtube #digital 3d #animation #game art #animals &amp; wildlife #character animation #olaf #guenther #olafguenther #olafgünther #animation #ingame #idle #walk #walking #cycle #3d #rigging #character #isometric #loop #global game jam #2021. dumb shell arts narsimha youtube" src="https://i.ytimg.com/vi/hoLEV8IcxDg/hqdefault.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVq6ZnDuRwKDAI_xE8vwwMbceNiPqSaKr7NQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>480x360 - Shell shockers is the first person shooting game just like everyone&#039;s favorite counter strike but the difference will be noticeable even at the very beginning. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 480x360</li> 
+    <mark>Dumb Shell Arts Narsimha Youtube </mark> Contains more than 16k indian movies on 4 different indian languages.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://i.ytimg.com/vi/aIHxI_0N63A/maxresdefault.jpg"><img alt="Dumb Shell Arts 2017 Youtube Contains over 6k hindi movie titles. youtube" src="https://i.ytimg.com/vi/aIHxI_0N63A/maxresdefault.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPpB4PI3kpSnA_uGXoRBCqBDByKLpRegL8zQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1280x720 - Dumb ways jr zany&#039;s hospital. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1280x720</li> 
+    <mark>Dumb Shell Arts 2017 Youtube </mark> Ahh dude no, the beta is hard for the sake of being dumb hard.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="http://blog.erosnow.com/wp-content/uploads/2015/02/cover6.jpg"><img alt="25 Tongue Twister Titles That You Can Use During Dumb Charades Eros Now Blog I am writing a shell script which works on my local /bin/sh fine (dash on ubuntu 13.04), but i unltimately need to run it on a dumb box where i&#039;m getting an error because of an operation on variables how can i do maths on this dumb shell? eros now blog" src="http://blog.erosnow.com/wp-content/uploads/2015/02/cover6.jpg" width="100%" onerror="this.onerror=null;this.src='https://lh3.googleusercontent.com/proxy/n1KjQATjxd7NmLmdhoMJhgAbCYg54L9ZYPOI315zqixhRE5yuv4jWrTyTjslbzCoCjb4VYqKNPe0Vthe83AejmgvF-sPbfVlodJhOsBkDfUj3p8VBA';"></a>
+		
+		<p style="text-align: center;"><b>694x350 - #digital 3d #animation #game art #animals &amp; wildlife #character animation #olaf #guenther #olafguenther #olafgünther #animation #ingame #idle #walk #walking #cycle #3d #rigging #character #isometric #loop #global game jam #2021. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 694x350</li> 
+    <mark>25 Tongue Twister Titles That You Can Use During Dumb Charades Eros Now Blog </mark> This app helps with the game dumb shell arts.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="http://www.techtree.com/sites/default/files/styles/image_width_620_watermark/public/2013/12/taboo-screen-2.png"><img alt="5 Apps To Make Your New Year Party Fun Techtree Com Ahh dude no, the beta is hard for the sake of being dumb hard. techtree com" src="http://www.techtree.com/sites/default/files/styles/image_width_620_watermark/public/2013/12/taboo-screen-2.png" width="100%" onerror="this.onerror=null;this.src='https://lh3.googleusercontent.com/proxy/MmT0zxvazIf7XYV_mEyOpiyOVSKdb4bJyOPiOtkbP963tmmbl05DWWp5hyqf4mUbDCpwFu_T9XYJnR_yS0IWRtyv_j0aavSAOuaM9GZpLa3UFRLOvknXJuPR2LwY_N3LMEoBUEytnD7ta9FSfBF2ro1czsolYarLFMFA6uWoyxnptnt8zy0';"></a>
+		
+		<p style="text-align: center;"><b>329x548 - You can play the game in three different mode as capture the spatula. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 329x548</li> 
+    <mark>5 Apps To Make Your New Year Party Fun Techtree Com </mark> Depends on what you view as a dumb game.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://fleepbleep.com/wp-content/uploads/2019/10/the-accidental-prime-minister-1024x429.jpg"><img alt="50 Dumb Charades Bollywood Movies New Movies For Damsharas You can play the game in three different mode as capture the spatula. 50 dumb charades bollywood movies new" src="https://fleepbleep.com/wp-content/uploads/2019/10/the-accidental-prime-minister-1024x429.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS13mhaw-xE5jQXTCuoQv6Ftm-oqtMYnPmqIg&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1024x429 - Shell shockers is the first person shooting game just like everyone&#039;s favorite counter strike but the difference will be noticeable even at the very beginning. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1024x429</li> 
+    <mark>50 Dumb Charades Bollywood Movies New Movies For Damsharas </mark> What is the population of game arts?
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://3.bp.blogspot.com/-afPp1mj80fY/T7nRRnLuDWI/AAAAAAAAFAQ/WNb-EhEzr_0/s1600/dumb+charades.jpg"><img alt="Spusht Dumb Charades Game Ideas Dumb ways jr zany&#039;s hospital. spusht dumb charades game ideas" src="https://3.bp.blogspot.com/-afPp1mj80fY/T7nRRnLuDWI/AAAAAAAAFAQ/WNb-EhEzr_0/s1600/dumb+charades.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCJykTgbBR-46mQ7GcwSMTtPNtZwKUfvHErQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>470x600 - Action adventure arcade board card casino casual education music puzzle racing role playing simulation strategy trivia word. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 470x600</li> 
+    <mark>Spusht Dumb Charades Game Ideas </mark> Contains more than 16k indian movies on 4 different indian languages.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://images-na.ssl-images-amazon.com/images/I/51dx49J%2Bk8L.png"><img alt="Amazon Com Dumb Shell Arts Appstore For Android You can play the game in three different mode as capture the spatula. amazon com dumb shell arts appstore" src="https://images-na.ssl-images-amazon.com/images/I/51dx49J%2Bk8L.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7t2_CZKeyGrjypYVqFMc4cWJUHcc4MrYb_g&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>720x1280 - In the game, the player takes control of a violent egg armed with a shotgun and enters the arena. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 720x1280</li> 
+    <mark>Amazon Com Dumb Shell Arts Appstore For Android </mark> You can play the game in three different mode as capture the spatula.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://i.ytimg.com/vi/lFaqtZafavk/maxresdefault.jpg"><img alt="Early Bird Flashcards Game 6 Dumb Charades Youtube Dumb ways jr zany&#039;s hospital. early bird flashcards game 6 dumb charades" src="https://i.ytimg.com/vi/lFaqtZafavk/maxresdefault.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjEiTPZWth3-nt6FJRjsI4loxmRsdQzFbyKg&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1280x720 - Upload your creations for people to see, favourite and share. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1280x720</li> 
+    <mark>Early Bird Flashcards Game 6 Dumb Charades Youtube </mark> Certain things don&#039;t work in these environments, and they can be troublesome to work with.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://i.pinimg.com/originals/50/12/64/501264263b8f2182c0a5ff06bc8bbfca.jpg"><img alt="Introducing Dumb Charades To Kids The Right Way Dumb Charades Business For Kids Healthy Family Activities 2) error handling done through error_handler.h. dumb charades business for kids" src="https://i.pinimg.com/originals/50/12/64/501264263b8f2182c0a5ff06bc8bbfca.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuSI_n-GLHfI0v81Qh4ORwdR0t7eGri2PtZA&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>433x641 - Over 2k telugu and kannada titles each. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 433x641</li> 
+    <mark>Introducing Dumb Charades To Kids The Right Way Dumb Charades Business For Kids Healthy Family Activities </mark> Check out our gameboy shell selection for the very best in unique or custom, handmade pieces from our video games shops.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://cdn.cdnparenting.com/articles/2020/03/04132152/1661493814-1024x700.jpg"><img alt="Best Charades Ideas Games For Kids 2) error handling done through error_handler.h. best charades ideas games for kids" src="https://cdn.cdnparenting.com/articles/2020/03/04132152/1661493814-1024x700.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOJs2bu-96MOz88zrlt6YxRczz-EFkjiUzww&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1024x700 - This app helps with the game dumb shell arts. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1024x700</li> 
+    <mark>Best Charades Ideas Games For Kids </mark> Dumb ways jr zany&#039;s hospital.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="http://listden.com/wp-content/uploads/2014/03/362194-4528-6.jpg"><img alt="Top 10 Fun Games You Can Play When With Friends Listden Helps with dumb shell arts game. listden" src="http://listden.com/wp-content/uploads/2014/03/362194-4528-6.jpg" width="100%" onerror="this.onerror=null;this.src='https://lh3.googleusercontent.com/proxy/RCO546In6V-HctvrlZdOscqXliRxlktH-hrljTERJUsqmlJIleH9KIkpv1zwrOdoXxnB_kXcN2g3PsIN_Qnm4MCxCdY4rk6j6XBTS3KFy2dWTLVS1wuQ';"></a>
+		
+		<p style="text-align: center;"><b>340x226 - This app is rated 5 by 1 users who are using this app. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 340x226</li> 
+    <mark>Top 10 Fun Games You Can Play When With Friends Listden </mark> Upload your creations for people to see, favourite and share.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="http://www.scrolldroll.com/wp-content/uploads/2018/05/Shin-Shinaki-Boobla-Boo-Best-Dumb-Charades-Movie.jpg"><img alt="30 Bollywood Dumb Charades Movie Names That Would Be Really Hard To Guess I am writing a shell script which works on my local /bin/sh fine (dash on ubuntu 13.04), but i unltimately need to run it on a dumb box where i&#039;m getting an error because of an operation on variables how can i do maths on this dumb shell? scrolldroll" src="http://www.scrolldroll.com/wp-content/uploads/2018/05/Shin-Shinaki-Boobla-Boo-Best-Dumb-Charades-Movie.jpg" width="100%" onerror="this.onerror=null;this.src='https://lh3.googleusercontent.com/proxy/4IVNe8TiTJ_QLU4-tU_7wyLb8vNy9mKY0-J5q2SidC42e51dy4s_Y5RLVQrnBYE2nb9qSIzE8MYqmmK0zRSD_N2qxgEpvAwuFsDdGtPPfkTP0FAMe_vVrprz_Lq18YBYH51DNAG9ADwYcjjLOLE_ieBkhg0AAmRjLCURS4jykc58eg';"></a>
+		
+		<p style="text-align: center;"><b>1200x628 - Upload your creations for people to see, favourite and share. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1200x628</li> 
+    <mark>30 Bollywood Dumb Charades Movie Names That Would Be Really Hard To Guess </mark> But doesn&#039;t quite seem to be there anymore.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://i.ytimg.com/vi/LXLLRdaCasU/mqdefault.jpg"><img alt="Dumb Charades Challenge Collab With Shilpa Das Funny Game Video Youtube Check out our gameboy shell selection for the very best in unique or custom, handmade pieces from our video games shops. dumb charades challenge collab with" src="https://i.ytimg.com/vi/LXLLRdaCasU/mqdefault.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGpA5K3ZW2gAnfnSe0I87pnwfoBgAJsurWKg&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>320x180 - Guess the movie name from the dumb actions in just 2 mins. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 320x180</li> 
+    <mark>Dumb Charades Challenge Collab With Shilpa Das Funny Game Video Youtube </mark> But often, these shells are limited, lacking the full power and functionality of a proper terminal.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://i.ytimg.com/vi/udUF95oh9c8/maxresdefault.jpg"><img alt="Top 10 Hindi Films For Dumb Charades Guess The Word Game Hitflix Youtube I am writing a shell script which works on my local /bin/sh fine (dash on ubuntu 13.04), but i unltimately need to run it on a dumb box where i&#039;m getting an error because of an operation on variables how can i do maths on this dumb shell? top 10 hindi films for dumb charades guess the word game hitflix" src="https://i.ytimg.com/vi/udUF95oh9c8/maxresdefault.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqDuPZde72YiFr6SP9yXbXtAv4YR1A3G4dpQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1280x720 - But often, these shells are limited, lacking the full power and functionality of a proper terminal. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1280x720</li> 
+    <mark>Top 10 Hindi Films For Dumb Charades Guess The Word Game Hitflix Youtube </mark> Future versions will include other indian language movies.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://android-screenimgs.25pp.com/fs04/2015/11/24/7/102_6689446f42aeb3e57b8832669db1ded8.jpeg"><img alt="Dumb Shell Arts Indianç¸ä¼¼åºç¨ä¸è½½ È±è±è Contains more than 16k movies on 4 different indian languages. è±è±è" src="https://android-screenimgs.25pp.com/fs04/2015/11/24/7/102_6689446f42aeb3e57b8832669db1ded8.jpeg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXfcTv3cr99jAzcjLvI_mYb1jsrTFzBkKhxQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>287x512 - The shell game (also known as thimblerig, three shells and a pea, the old army game) is portrayed as a gambling game, but in reality, when a wager for money is made, it is almost always a confidence trick used to perpetrate fraud. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 287x512</li> 
+    <mark> </mark> Find latest and old versions.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://images-na.ssl-images-amazon.com/images/I/515lK4hvCaL.png"><img alt="Amazon Com Dumb Shell Arts Appstore For Android 10,579 likes · 48 talking about this. amazon com dumb shell arts appstore" src="https://images-na.ssl-images-amazon.com/images/I/515lK4hvCaL.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc0XZHYteiWgXbhseN2TQyrhFxDT9VHDs_3w&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>720x1280 - Action adventure arcade board card casino casual education music puzzle racing role playing simulation strategy trivia word. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 720x1280</li> 
+    <mark>Amazon Com Dumb Shell Arts Appstore For Android </mark> Contains more than 16k indian movies on 4 different indian languages.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://i.ytimg.com/vi/-lLspRLHJyE/maxresdefault.jpg"><img alt="Types Of Players In Dumb Charades Rvcj Youtube Are you really that dumb? types of players in dumb charades rvcj" src="https://i.ytimg.com/vi/-lLspRLHJyE/maxresdefault.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQXVgQTXUQxyzoJadczRboOqkVGIsF9eqaqQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1280x720 - This app helps with the game dumb shell arts. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1280x720</li> 
+    <mark>Types Of Players In Dumb Charades Rvcj Youtube </mark> Usually, it&#039;s said as a fun activity.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://play-lh.googleusercontent.com/53oX42nbmsZP2kK4xifytqhsNamFYr2FSnVj3E9QNi9J3I2uaVRoLt8PpnTI36n2dCE"><img alt="Dumb Charades Apps On Google Play Usually, it&#039;s said as a fun activity. dumb charades apps on google play" src="https://play-lh.googleusercontent.com/53oX42nbmsZP2kK4xifytqhsNamFYr2FSnVj3E9QNi9J3I2uaVRoLt8PpnTI36n2dCE" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbGFD4-HxOIDQoqXrquXyTE4Ie7EOmUyj_AQ&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>512x512 - This app helps with the game dumb shell arts. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 512x512</li> 
+    <mark>Dumb Charades Apps On Google Play </mark> This subreddit and its moderators are not affiliated with epic games or the epic games store.
+</blockquote>
+    </aside>
+    <aside>
+        <a href="https://chaibisket.com/wp-content/uploads/2018/01/FI-1-3.jpg"><img alt="Dumb Charades Telugu Movie Titles Archives Chai Bisket In the game, the player takes control of a violent egg armed with a shotgun and enters the arena. dumb charades telugu movie titles" src="https://chaibisket.com/wp-content/uploads/2018/01/FI-1-3.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRduESt7j8W52Q_MI_BHoPhbunKTWw3EmvQSw&amp;usqp=CAU';"></a>
+		
+		<p style="text-align: center;"><b>1694x889 - This app helps with the game dumb shell arts. </b></p>
+   <div align="center">
+
+
+  <blockquote class="tr_bq">
+<li>Original Resolution: 1694x889</li> 
+    <mark>Dumb Charades Telugu Movie Titles Archives Chai Bisket </mark> Depends on what you view as a dumb game.
+</blockquote>
+    </aside>
+</section>
+
+
+	<section>
+ 
+</section>
+		</div>
+	</article>
+</main>
+
+
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH…" value="" name="q" aria-label="SEARCH…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://lesincy.vercel.app/" />
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/31st-december-mumbai/">31St December Mumbai / What happened on 31st december 2020?</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/annapurna-bandra-east/">Annapurna Bandra East - This enchanting hill is located at the height of approximately 4750 feet in the north east of.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/ban-maska/">Ban Maska / Bun maska is a maharashtrian staple.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/bihar-board-science-result/">Bihar Board Science Result : Lakh of students last year appeared in board exams and this also lots of students going to have appeared in 12th board.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/biography-of-ajay-devgun/">Biography Of Ajay Devgun - Ajay devgan age, height, biography 2020, wiki, net worth, wife.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/bird-sanctuary-near-mathura/">Bird Sanctuary Near Mathura / Located near mysore, the sanctuary comprises of six small islands by the banks of the river cauvery.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/cidco-flats-in-airoli/">Cidco Flats In Airoli - Dayanand anglo vedic public school, airoli (cbse).</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/diva-to-vasai-local-train-timetable/">Diva To Vasai Local Train Timetable / Check the timetable of our trains covering across central japan area.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/dr-natarajan-ophthalmologist/">Dr Natarajan Ophthalmologist : View detailed profiles of ophthalmologist near you.</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/dr-vishwajeet-kadam/">Dr Vishwajeet Kadam : Vishwajeet kadam official app developed by rivalogic technologies is listed under category news this official app for dr.</a></li>
+		</ul>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 Lesincy.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+		
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-21862896-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-21862896-2');
+</script>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+</body>
+</html>
